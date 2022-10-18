@@ -15,6 +15,8 @@ import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
+import Blogs from '../pages/Blogs';
+import Research from '../pages/Research';
 
 const pages = [
   {
@@ -47,6 +49,16 @@ const pages = [
     heading: 'Resume',
     component: Resume,
   },
+  {
+    route: '/research',
+    heading: 'Research',
+    component: Research,
+  },
+  {
+    route: '/blogs',
+    heading: 'Blogs',
+    component: Blogs,
+  },
 ];
 
 // Adds router to Page context and allows us to navigate to the
@@ -65,7 +77,7 @@ test('Renders 404 Page Component', () => {
 
 const checkPageComponent = async (page) => {
   test(`Renders ${page.route} Component`, () => {
-    window.scrollTo = () => {}; // TODO mock this later
+    window.scrollTo = () => { }; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
     const linkElement = screen.getByTestId('heading');
     expect(linkElement).toHaveTextContent(page.heading);
