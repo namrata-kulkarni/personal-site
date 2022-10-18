@@ -19,7 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Namrata. I like building things.
+      <p>Hi, I&apos;m Namrata.
         I am a <a href="https://www.psu.edu/">Penn State</a> 2022 graduate majoring in Human-Centered Design.
         I am a UI/UX designer who is excited about creating meaningful experiences,
         solving complex problems, and delivering user-centered designs.
