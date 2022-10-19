@@ -1,196 +1,176 @@
-// TODO: Add Athletic Skills, Office Skills,
-// Data Engineering, Data Science, ML Engineering, ... ?
-
 const skills = [
   {
     title: 'Javascript',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Node.JS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
+    competency: 4,
+    category: ['Web Development', 'Languages'],
   },
   {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
+    title: 'HTML + SASS/SCSS/CSS',
+    competency: 4,
+    category: ['Web Development', 'Languages'],
   },
   {
-    title: 'Amazon Web Services',
+    title: 'Data Visualization',
+    competency: 4,
+    category: ['Design', 'Web Development'],
+  },
+  {
+    title: 'Microsoft Azure',
     competency: 4,
     category: ['Web Development', 'Tools'],
   },
+
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'Git',
     competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Tools', 'Web Development'],
   },
+
   {
-    title: 'Redis',
+    title: 'Jira',
+    competency: 5,
+    category: ['Tools', 'Web Development'],
+  },
+
+  {
+    title: 'Azure DevOps',
+    competency: 5,
+    category: ['Tools', 'Web Development'],
+  },
+
+  {
+    title: ' C#.Net',
     competency: 3,
-    category: ['Web Development', 'Databases'],
+    category: ['Web Development', 'Languages'],
   },
+
   {
-    title: 'Data Mining',
+    title: 'SQL',
     competency: 3,
-    category: ['Data Science'],
+    category: ['Web Development', 'Languages'],
   },
+
   {
-    title: 'Express.JS',
+    title: 'Adobe XD',
+    competency: 3,
+    category: ['Tools'],
+  },
+
+  {
+    title: 'Illustrator',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
+    category: ['Tools'],
   },
   {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
+    title: 'InDesign',
     competency: 3,
     category: ['Tools'],
   },
   {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Numpy',
+    title: 'InVision',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
+    category: ['Tools'],
   },
   {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Python',
-    competency: 5,
-    category: ['Languages', 'Python'],
-  },
-  {
-    title: 'C++',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Scikit-Learn',
+    title: 'Figma',
     competency: 4,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Tools'],
   },
   {
-    title: 'Hadoop',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
-  },
-  {
-    title: 'Pylint',
+    title: 'Tableau',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Tools'],
+  },
+
+  {
+    title: 'Client Interviewing',
+    competency: 4,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Requirements Gathering',
+    competency: 4,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Presentation',
+    competency: 3,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Project Management',
+    competency: 3,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Resource management',
+    competency: 4,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Marketing Research',
+    competency: 4,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Social Media Marketing',
+    competency: 4,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'User Experience Design',
+    competency: 3,
+    category: ['Design'],
+  },
+
+  {
+    title: 'Wireframing',
+    competency: 4,
+    category: ['Design'],
+  },
+  {
+    title: 'Interaction Design',
+    competency: 3,
+    category: ['Design'],
+  },
+  {
+    title: 'User Interface Design',
+    competency: 3,
+    category: ['Design'],
+  },
+  {
+    title: 'Usability Research',
+    competency: 4,
+    category: ['Design'],
+  },
+  {
+    title: 'Prototyping',
+    competency: 3,
+    category: ['Design'],
+  },
+  {
+    title: 'User Testing',
+    competency: 4,
+    category: ['Design'],
+  },
+  {
+    title: 'Web Designs',
+    competency: 3,
+    category: ['Design'],
+  }, {
+    title: 'Design System',
+    competency: 4,
+    category: ['Design'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -199,15 +179,15 @@ const skills = [
 const colors = [
   '#6968b3',
   '#37b1f5',
-  '#40494e',
   '#515dd4',
-  '#e47272',
   '#cc7b94',
   '#3896e2',
   '#c3423f',
   '#d75858',
   '#747fff',
   '#64cb7b',
+  '#e47272',
+  '#40494e',
 ];
 
 const categories = [
