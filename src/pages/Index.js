@@ -25,7 +25,13 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <p>
+        I’m a UI/UX designer with experience in UX research, UI design, and front-end development.
+        I create inclusive experiences to bridge the gap between people and technology and strive to
+        align creative vision with business strategy.
+        I believe in advocating for the user through research and empathy and translating core
+        customer needs into meaningful, inclusive interactions.
+      </p>
     </article>
   </Main>
 );

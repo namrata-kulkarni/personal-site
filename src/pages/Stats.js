@@ -9,7 +9,7 @@ import Site from '../components/Stats/Site';
 const Stats = () => (
   <Main
     title="Stats"
-    description="Some statistics about Namrata Kulkarni and mldangelo.com"
+    description="Some statistics about Namrata Kulkarni and namratajk.com"
   >
     <article className="post" id="stats">
       <header>

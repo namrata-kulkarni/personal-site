@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: '',
+    link: 'https://github.com/namrata-kulkarni',
     label: 'Github',
     icon: faGithub,
   },
@@ -17,12 +17,12 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: '',
+    link: 'https://www.linkedin.com/in/namratajk/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: '',
+    link: 'https://twitter.com/namrata_k_',
     label: 'Twitter',
     icon: faTwitter,
   },
