@@ -32,7 +32,3 @@ My goal is to work with people who are continually working to solve small proble
 
 When I'm not on Figma, you can catch me here on my Instagram [growup.urban]()
 
-# TLDR
-
-I’m a UI/UX designer with experience in UX research, UI design, and front-end development. I create inclusive experiences to bridge the gap between people and technology and strive to align creative vision with business strategy. I believe in advocating for the user through research and empathy and translating core customer needs into meaningful, inclusive interactions.
-
