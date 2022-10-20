@@ -68,7 +68,7 @@ const skills = [
 
   {
     title: 'Illustrator',
-    competency: 2,
+    competency: 3.5,
     category: ['Tools'],
   },
   {
@@ -78,7 +78,7 @@ const skills = [
   },
   {
     title: 'InVision',
-    competency: 3,
+    competency: 4.5,
     category: ['Tools'],
   },
   {
@@ -104,17 +104,17 @@ const skills = [
   },
   {
     title: 'Presentation',
-    competency: 3,
+    competency: 4,
     category: ['Soft Skills'],
   },
   {
     title: 'Project Management',
-    competency: 3,
+    competency: 4.5,
     category: ['Soft Skills'],
   },
   {
     title: 'Resource management',
-    competency: 4,
+    competency: 4.5,
     category: ['Soft Skills'],
   },
   {
@@ -129,47 +129,47 @@ const skills = [
   },
   {
     title: 'User Experience Design',
-    competency: 3,
+    competency: 4,
     category: ['Design'],
   },
 
   {
     title: 'Wireframing',
-    competency: 4,
+    competency: 4.5,
     category: ['Design'],
   },
   {
     title: 'Interaction Design',
-    competency: 3,
+    competency: 4,
     category: ['Design'],
   },
   {
     title: 'User Interface Design',
-    competency: 3,
+    competency: 4.5,
     category: ['Design'],
   },
   {
     title: 'Usability Research',
-    competency: 4,
+    competency: 4.5,
     category: ['Design'],
   },
   {
     title: 'Prototyping',
-    competency: 3,
+    competency: 4,
     category: ['Design'],
   },
   {
     title: 'User Testing',
-    competency: 4,
+    competency: 4.5,
     category: ['Design'],
   },
   {
     title: 'Web Designs',
-    competency: 3,
+    competency: 4,
     category: ['Design'],
   }, {
     title: 'Design System',
-    competency: 4,
+    competency: 4.5,
     category: ['Design'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
