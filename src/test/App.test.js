@@ -13,6 +13,8 @@ import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
 import Blogs from '../pages/Blogs';
 import Research from '../pages/Research';
+import Blog1 from '../pages/Blog1';
+import Blog2 from '../pages/Blog2';
 
 const pages = [
   {
@@ -54,6 +56,16 @@ const pages = [
     route: '/blogs',
     heading: 'Blogs',
     component: Blogs,
+  },
+  {
+    route: '/blog1',
+    heading: 'Blog1',
+    component: Blog1,
+  },
+  {
+    route: '/blog2',
+    heading: 'Blog2',
+    component: Blog2,
   },
 ];
 
