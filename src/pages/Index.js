@@ -20,8 +20,10 @@ const Index = () => (
       </header>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
+        <Link to="/blogs">blogs</Link>, {' '}
+        <Link to="/research">research</Link>, {' '}
+        <Link to="/resume">resume</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
       <p>
